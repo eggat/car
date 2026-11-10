@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="沿台18線走進阿里山的暮色，在車窗邊守一夜山霧。收錄停宿準備、車內布置與裝備清單。">
+    <title>阿里山車泊｜台18線的一夜山光</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body id="top">
+    <header class="site-header">
+        <div class="wrap nav-row">
+            <a class="brand" href="#top">
+                <span class="route-shield" aria-hidden="true"><small>台</small>18</span>
+                <span>阿里山車泊<small>台18線・山夜手記</small></span>
+            </a>
+            <nav class="route-nav" aria-label="車泊手記章節">
+                <svg class="route-map" viewBox="0 0 500 64" preserveAspectRatio="none" aria-hidden="true">
+                    <defs>
+                        <linearGradient id="route-light">
+                            <stop stop-color="#edaf77"/>
+                            <stop offset=".52" stop-color="#f3bcba"/>
+                            <stop offset="1" stop-color="#afe1cd"/>
+                        </linearGradient>
+                        <path id="route-track" d="M50 23C90 23 109 7 150 17S207 38 250 26 313 9 350 17 414 35 450 23"/>
+                        <clipPath id="route-completed">
+                            <rect class="route-clip" x="50" y="0" width="400" height="64"/>
+                        </clipPath>
+                    </defs>
+                    <g class="route-contours">
+                        <path d="M359 0c-8 15 37 11 58 28s-3 25 15 36m-56-64c-3 8 38 12 54 25s2 28 21 39m-57-64c5 6 33 7 49 22s9 29 28 42m-59-64c12 5 31 5 46 19s14 33 31 45"/>
+                        <path d="M5 62c5-23 27-40 43-42S78 11 83 0M18 64c3-18 19-31 37-36S88 15 93 0M32 64c4-14 15-22 29-26S97 22 105 0"/>
+                    </g>
+                    <use class="route-map-track" href="#route-track"/>
+                    <use class="route-map-travelled" href="#route-track" clip-path="url(#route-completed)"/>
+                </svg>
+                <a href="#top" aria-current="location"><span class="route-node" aria-hidden="true">00</span><span class="route-label">山口</span></a>
+                <a href="#planning"><span class="route-node" aria-hidden="true">01</span><span class="route-label">上山前</span></a>
+                <a href="#journey"><span class="route-node" aria-hidden="true">02</span><span class="route-label">山中一夜</span></a>
+                <a href="#cabin"><span class="route-node" aria-hidden="true">03</span><span class="route-label">車內布置</span></a>
+                <a href="#packing"><span class="route-node" aria-hidden="true">04</span><span class="route-label">裝備清單</span></a>
+            </nav>
+        </div>
+        <div class="page-progress" aria-hidden="true"></div>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="photo photo-cover" data-scene="images/cover-scene.jpg" data-alt="山間車泊封面">
+                <svg class="landscape" viewBox="0 0 1440 820" preserveAspectRatio="xMaxYMax slice" aria-hidden="true">
+                    <defs>
+                        <linearGradient id="sky" x2="0" y2="1" gradientUnits="objectBoundingBox">
+                            <stop stop-color="#172725" />
+                            <stop offset=".46" stop-color="#496059" />
+                            <stop offset=".8" stop-color="#ce9b73" />
+                            <stop offset="1" stop-color="#e6b788" />
+                        </linearGradient>
+                        <linearGradient id="far" x2="0" y2="1">
+                            <stop stop-color="#5a6c61" />
+                            <stop offset="1" stop-color="#9aa294" />
+                        </linearGradient>
+                        <linearGradient id="near" x2="0" y2="1">
+                            <stop stop-color="#354d42" />
+                            <stop offset="1" stop-color="#152a25" />
+                        </linearGradient>
+                        <linearGradient id="mist">
+                            <stop stop-color="#cdd7c6" stop-opacity="0" />
+                            <stop offset=".48" stop-color="#cdd7c6" stop-opacity=".55" />
+                            <stop offset="1" stop-color="#cdd7c6" stop-opacity="0" />
+                        </linearGradient>
+                        <radialGradient id="sun-glow">
+                            <stop stop-color="#edaa6b" stop-opacity=".5" />
+                            <stop offset="1" stop-color="#edaa6b" stop-opacity="0" />
+                        </radialGradient>
+                        <radialGradient id="lamp-glow">
+                            <stop stop-color="#f3ae63" stop-opacity=".35" />
+                            <stop offset="1" stop-color="#f3ae63" stop-opacity="0" />
+                        </radialGradient>
+                        <path id="fir" d="M0 0 9 19H5l11 17h-6l13 18H3v11h-6V54h-20l13-18h-6l11-17h-4Z" />
+                    </defs>
+                    <path fill="url(#sky)" d="M0 0h1440v820H0z" />
+                    <g class="sun-disc">
+                        <circle cx="1090" cy="330" r="170" fill="url(#sun-glow)" />
+                        <circle cx="1090" cy="330" r="64" fill="#efb785" />
+                    </g>
+                    <g fill="#fae7cb" class="sky-stars">
+                        <circle cx="790" cy="112" r="2" />
+                        <circle cx="873" cy="167" r="1.5" />
+                        <circle cx="1170" cy="100" r="2" />
+                        <circle cx="1275" cy="174" r="1.5" />
+                        <circle cx="1342" cy="112" r="2" />
+                        <circle cx="973" cy="79" r="1.4" />
+                    </g>
+                    <path fill="url(#far)"
+                        d="M0 510 110 438l74 12 95-69 83 38 128-128 104 69 69-33 116 69 86-42 104 42 105-32 97 33 126-78 143 45v456H0Z" />
+                    <path fill="#657c6e"
+                        d="m0 537 156-49 82 4 112-48 98 14 111-67 98 47 90-26 120 64 101-47 83 31 118-38 116 47 155-26v377H0Z" />
+                    <g class="mist mist-upper" fill="url(#mist)">
+                        <path d="M365 467c197-65 311-20 454-4s237-45 461-23c-179 10-279 73-464 53S505 466 365 467Z" />
+                        <path d="M782 507c155-42 230-7 348-5s200-38 371-28c-146 14-212 53-367 51s-248-25-352-18Z" />
+                    </g>
+                    <path fill="url(#near)"
+                        d="M0 580c168-54 251-36 367-31 138 7 212-50 312-40 102 10 145 64 248 57 154-11 238-79 513-37v291H0Z" />
+                    <path fill="#253e35"
+                        d="M0 631c160-14 272-54 370-30 136 33 222 54 352 23s227-44 363-19 233-5 355-48v263H0Z" />
+                    <g class="mist mist-lower" fill="url(#mist)">
+                        <path
+                            d="M422 607c185-21 274-60 390-47s148 57 322 43 205-57 354-48c-155 22-195 61-350 74s-219-34-325-44-244 20-391 22Z" />
+                    </g>
+                    <path fill="#152a25" d="M0 683c158-40 318-6 479 37s282 20 426-19c158-42 292-35 535-4v123H0Z" />
+                    <g fill="#122620">
+                        <use href="#fir" transform="translate(56 535) scale(2.7)" />
+                        <use href="#fir" transform="translate(116 593) scale(1.8)" />
+                        <use href="#fir" transform="translate(187 615) scale(1.4)" />
+                        <use href="#fir" transform="translate(313 654) scale(1.1)" />
+                        <use href="#fir" transform="translate(1328 566) scale(2.05)" />
+                        <use href="#fir" transform="translate(1382 530) scale(2.6)" />
+                        <use href="#fir" transform="translate(1420 557) scale(2.2)" />
+                    </g>
+                    <g class="van-scene" transform="translate(1020 618)">
+                        <ellipse cx="107" cy="112" rx="146" ry="23" fill="#0d201c" />
+                        <path d="M-3 96V47a13 13 0 0 1 13-13h110c13 0 22 5 29 13l25 31 23 8q12 4 12 16v10H-3Z"
+                            fill="#d4bea0" stroke="#0e211d" stroke-width="3" />
+                        <path d="M-3 91h195l17 6v14H-3Z" fill="#8e5b43" />
+                        <path d="M91 47h25q14 0 23 10l17 21H91Z" fill="#253e35" />
+                        <path d="M11 47h64v30H11Z" fill="#332e26" />
+                        <path class="van-light" d="M15 51h56v22H15Z" fill="#f6bc78" />
+                        <path d="M28 50v24m31-24v24m24-31v61" fill="none" stroke="#704b37" stroke-width="2" />
+                        <path d="M196 88h10v6h-10Z" fill="#f5d8a3" />
+                        <path d="M16 33h97m-83-7h52" stroke="#0e211d" stroke-width="4" stroke-linecap="round" />
+                        <circle cx="36" cy="109" r="15" fill="#101e1b" stroke="#9d927d" stroke-width="2" />
+                        <circle cx="164" cy="109" r="15" fill="#101e1b" stroke="#9d927d" stroke-width="2" />
+                        <circle cx="36" cy="109" r="5" fill="#a7a28e" />
+                        <circle cx="164" cy="109" r="5" fill="#a7a28e" />
+                        <ellipse cx="40" cy="65" rx="88" ry="73" fill="url(#lamp-glow)" />
+                    </g>
+                </svg>
+            </div>
+            <div class="wrap hero-inner">
+                <div class="hero-copy">
+                    <p class="eyebrow"><span class="dot"></span> 嘉義・台18線 <span class="hairline"></span> 一夜山光</p>
+                    <h1 id="hero-title">阿里山<span>車泊</span></h1>
+                    <p class="hero-description">沿台18線追著暮色上山，最後一抹金光停在車窗上。<br>熄火，攤開睡袋。等一夜過去，看晨霧從山脊慢慢退開。</p>
+                    <a class="button" href="#planning">從山腳出發 <span aria-hidden="true">↓</span></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section wrap planning" id="planning" aria-labelledby="planning-title">
+            <div class="planning-intro" data-reveal>
+                <p class="eyebrow section-kicker">01 / 山腳整備</p>
+                <h2 id="planning-title">在山路<br><span>第一個彎之前</span></h2>
+                <p>先在山下定好今晚的落腳處，想清楚明早怎麼離開。上了台18線，就能趁天還亮停妥車，把傍晚留給窗外一層層暗下來的山。</p>
+            </div>
+            <ol class="prep-list" data-reveal>
+                <li><span>01</span>
+                    <div>
+                        <h3 id="prep-stop">先定今晚的落腳處</h3>
+                        <p>向場地主人或管理單位確認能否在車內過夜，一併問清最晚抵達時間、廁所開放時段和隔天離場方式。</p>
+                    </div>
+                </li>
+                <li><span>02</span>
+                    <div>
+                        <h3 id="prep-route">出發前，先讀台18線</h3>
+                        <p>查清施工、管制與預警封閉資訊，下載離線地圖，存下停宿地址和場地電話。在山下補足油量或電量，預留白天抵達的時間。</p>
+                    </div>
+                </li>
+                <li><span>03</span>
+                    <div>
+                        <h3 id="prep-weather">替山雨留一個備案</h3>
+                        <p>依停宿地點的夜間低溫和降雨預報準備乾衣與保暖層。若天候或路況需要改變計畫，先聯絡備用住宿，確認能否入住及最晚抵達時間。</p>
+                    </div>
+                </li>
+            </ol>
+            <div class="dispatch" id="travel-info">
+                <span>出發前查詢</span>
+                <a href="https://168.thb.gov.tw/travelTime">公路局省道路況 <span aria-hidden="true">↗</span></a>
+                <a href="https://recreation.forest.gov.tw/forest/ra?typ_id=0500001">阿里山園區公告與天氣 <span
+                        aria-hidden="true">↗</span></a>
+            </div>
+        </section>
+
+        <section class="section journey" id="journey" aria-labelledby="journey-title">
+            <div class="wrap">
+                <p class="eyebrow section-kicker">02 / 山中一夜</p>
+                <div class="section-heading" data-reveal>
+                    <h2 id="journey-title">一夜有<span>三種光</span></h2>
+                    <p>夕照斜過車窗，夜裡只剩手邊一盞燈，天亮後再看霧裡的山。抵達和離開的時間，隨當天的天氣與場地安排。</p>
+                </div>
+                <ol class="journey-grid">
+                    <li class="journey-card journey-dusk" data-reveal>
+                        <div class="photo photo-dusk" data-scene="images/dusk-scene.jpg" data-alt="傍晚抵達車泊地點">
+                            <span class="photo-number">01</span>
+                            <svg viewBox="0 0 48 48" aria-hidden="true">
+                                <path d="M5 32h38M9 38h30M14 32a10 10 0 0 1 20 0M24 9v6M9 17l4 4m26-4-4 4" />
+                            </svg>
+                        </div>
+                        <div class="journey-copy">
+                            <p class="card-kicker">01 / 傍晚</p>
+                            <h3>趁暮色還淺，把床鋪好</h3>
+                            <p>車停妥了，趁餘光還照得到路，先走一遍車位到廁所的路，也認清明早的離場方向。回來收好行李、放平椅背，躺上睡墊試試哪裡硌背、哪扇門最好開。</p>
+                        </div>
+                    </li>
+                    <li class="journey-card journey-night" data-reveal>
+                        <div class="photo photo-night" data-scene="images/night-scene.jpg" data-alt="入夜後的車泊空間">
+                            <span class="photo-number">02</span>
+                            <svg viewBox="0 0 48 48" aria-hidden="true">
+                                <path d="M35 31A15 15 0 0 1 18 12a15 15 0 1 0 17 19ZM34 10v8m-4-4h8m2 7v6m-3-3h6" />
+                            </svg>
+                        </div>
+                        <div class="journey-copy">
+                            <p class="card-kicker">02 / 入夜</p>
+                            <h3>最後一盞燈，留在手邊</h3>
+                            <p>車窗外只剩山的輪廓。把濕外套收進袋子，換上乾衣和厚襪。熄火後確認通風，把鑰匙、頭燈和鞋放回摸黑也找得到的位置。想聽音樂時，就把聲音留在耳機裡。</p>
+                            <p class="field-note">睡前最後一步 <strong>確認同行的人都能從車內開門。</strong></p>
+                        </div>
+                    </li>
+                    <li class="journey-card journey-dawn" data-reveal>
+                        <div class="photo photo-dawn" data-scene="images/dawn-scene.jpg" data-alt="車窗外的清晨山景">
+                            <span class="photo-number">03</span>
+                            <svg viewBox="0 0 48 48" aria-hidden="true">
+                                <path d="M5 37 18 18l7 10 5-7 13 16H5Zm9-13 4 3 4-3" />
+                                <circle cx="34" cy="12" r="4" />
+                            </svg>
+                        </div>
+                        <div class="journey-copy">
+                            <p class="card-kicker">03 / 清晨</p>
+                            <h3 id="journey-dawn">等霧鬆開山脊</h3>
+                            <p>從保溫瓶倒一杯熱飲，看晨光慢慢漫進車裡。收車前用吸水布擦掉前擋、側窗和後視鏡的水氣，濕布另袋收好。山路還罩著雨霧時，就坐著把早餐吃完，等視線清楚再出發。</p>
+                            <p class="field-note" id="journey-check">離開前繞車一圈 <strong>收好防蚊網、鞋子和垃圾。</strong></p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="section cabin" id="cabin" aria-labelledby="cabin-title">
+            <div class="wrap cabin-grid">
+                <div class="cabin-copy" data-reveal>
+                    <p class="eyebrow section-kicker">03 / 車窗之內</p>
+                    <h2 id="cabin-title">把後座鋪成<br><span>山裡的一席床</span></h2>
+                    <p>上山前，先在家把後座放倒，量一量睡鋪最窄處和能躺直的長度。用手邊的睡墊、睡袋和這趟要帶的行李試鋪一次，再從車內開門走出去。</p>
+                    <p class="cabin-safety">睡前熄火，保留通風。車內避免使用瓦斯爐、炭火或燃燒式暖爐。<a
+                            href="https://www.nfa.gov.tw/cht/index.php?code=list&amp;ids=593">消防署一氧化碳防範資料
+                            ↗</a></p>
+                </div>
+                <div class="cabin-layout" data-reveal>
+                    <figure class="cabin-plan">
+                        <figcaption class="cabin-caption"><span>車內配置示意</span><span>← 車頭</span></figcaption>
+                        <svg viewBox="0 0 560 246" role="img" aria-labelledby="cabin-plan-title cabin-plan-description">
+                            <title id="cabin-plan-title">車泊俯視配置</title>
+                            <desc id="cabin-plan-description">車頭在左，頭燈靠近下車側。睡鋪佔車廂中段，乾濕分袋放在車尾，睡鋪旁留出通道。</desc>
+                            <defs>
+                                <linearGradient id="cabin-plan-body" x1="0" y1="0" x2="0" y2="1">
+                                    <stop stop-color="#3f5064"/>
+                                    <stop offset="1" stop-color="#262b48"/>
+                                </linearGradient>
+                                <linearGradient id="cabin-plan-bed" x1="0" y1="0" x2="1" y2="1">
+                                    <stop stop-color="#a9ddc8"/>
+                                    <stop offset="1" stop-color="#52988f"/>
+                                </linearGradient>
+                            </defs>
+                            <g fill="none" stroke="#99aac3" stroke-width="1" opacity=".2">
+                                <path d="M30 39h500M30 206h500M280 22v201" stroke-dasharray="4 6"/>
+                                <path d="M29 38v14m0 139v15m501-168v14m0 139v15"/>
+                            </g>
+                            <g fill="#121927" stroke="#8b9eb2" stroke-width="2">
+                                <rect x="106" y="28" width="48" height="31" rx="8"/>
+                                <rect x="106" y="188" width="48" height="31" rx="8"/>
+                                <rect x="426" y="28" width="48" height="31" rx="8"/>
+                                <rect x="426" y="188" width="48" height="31" rx="8"/>
+                            </g>
+                            <path d="M51 83q9-39 58-39h350q44 0 50 31v95q-6 32-50 32H109q-49 0-58-39Z" fill="url(#cabin-plan-body)" stroke="#b0b9cf" stroke-width="2"/>
+                            <path d="M104 55q-38 9-43 36v64q6 28 43 36l24-22V77Z" fill="#182433" stroke="#8cabb4" stroke-width="1.5"/>
+                            <g fill="#5e6c85" stroke="#aeb9cd" stroke-width="1.3">
+                                <rect x="138" y="60" width="59" height="51" rx="9"/>
+                                <rect x="138" y="134" width="59" height="51" rx="9"/>
+                                <path d="M184 61v49m0 25v49"/>
+                            </g>
+                            <path d="M208 49v145m203-145v145" fill="none" stroke="#9ba8be" stroke-dasharray="5 5"/>
+                            <rect x="220" y="59" width="177" height="99" rx="11" fill="url(#cabin-plan-bed)" stroke="#c4e5d7" stroke-width="1.5"/>
+                            <rect x="231" y="72" width="43" height="73" rx="8" fill="#e1f0e4"/>
+                            <path d="M285 65v87m23-87v87m23-87v87m23-87v87m23-87v87" fill="none" stroke="#d9eee1" opacity=".42"/>
+                            <rect x="420" y="59" width="67" height="51" rx="8" fill="#b098d2" stroke="#e0d3f3"/>
+                            <rect x="420" y="119" width="67" height="39" rx="8" fill="#6e6b9b" stroke="#c6b5dc"/>
+                            <path d="M443 59v51m21-51v51m-21 9v39m21-39v39" stroke="#eee4f6" opacity=".6"/>
+                            <path d="M250 174h215m-215 16h215" fill="none" stroke="#a8c4c1" stroke-width="1.4" stroke-dasharray="5 5"/>
+                            <path d="M228 173h-12q-8 0-8 8t8 8h12m-6-15v14" fill="none" stroke="#f6cf8e" stroke-width="3" stroke-linecap="round"/>
+                            <g stroke="#222840" stroke-width="2">
+                                <circle cx="242" cy="177" r="15" fill="#f3c47f"/>
+                                <circle cx="332" cy="109" r="15" fill="#c8edda"/>
+                                <circle cx="475" cy="105" r="15" fill="#ddc9f5"/>
+                            </g>
+                            <g class="cabin-plan-markers">
+                                <text x="242" y="177">01</text>
+                                <text x="332" y="109">02</text>
+                                <text x="475" y="105">03</text>
+                            </g>
+                        </svg>
+                    </figure>
+                    <ol>
+                        <li><span>01</span>
+                            <div>
+                                <h3 id="cabin-reach">手伸得到</h3>
+                                <p>把頭燈、手機、鑰匙放在固定位置。鞋子靠近常用的下車側，車門旁留出空間。</p>
+                            </div>
+                        </li>
+                        <li><span>02</span>
+                            <div>
+                                <h3 id="cabin-bed">躺得平</h3>
+                                <p>把椅背落差墊平，再鋪睡墊與睡袋。試著側睡和翻身，確認膝蓋和腳尖有位置。</p>
+                            </div>
+                        </li>
+                        <li><span>03</span>
+                            <div>
+                                <h3 id="cabin-dry">乾濕分開</h3>
+                                <p>濕鞋和雨衣集中收納，乾衣放在另一袋。<span id="cabin-cargo">重物固定在低處，走之前再檢查一次。</span></p>
+                            </div>
+                        </li>
+                    </ol>
+                    <p class="cabin-caption">依車型調整位置，車門旁留出通道。</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="packing" id="packing" aria-labelledby="packing-title">
+            <div class="wrap packing-grid">
+                <div data-reveal>
+                    <p class="eyebrow section-kicker">04 / 山夜行囊</p>
+                    <h2 id="packing-title">關上尾門前，<br><span>點齊這一夜</span></h2>
+                    <p>先收能讓你睡暖、照亮車門和找到落腳處的裝備。逐項勾選，下次打開就知道打包到哪一項。</p>
+                </div>
+                <div class="checklist" id="packing-checklist">
+                    <div class="checklist-heading">
+                        <p id="packing-progress" class="checklist-count" aria-live="polite">已備妥 0 / 8</p>
+                        <button type="button" id="packing-filter" aria-pressed="false" hidden>只看未備</button>
+                    </div>
+                    <label><input type="checkbox" name="sleep"><span>睡墊、睡袋與保暖衣物</span></label>
+                    <label><input type="checkbox" name="light"><span>頭燈與行動電源</span></label>
+                    <label><input type="checkbox" name="water"><span>飲用水與簡單餐食</span></label>
+                    <label><input type="checkbox" name="ventilation"><span>車窗防蚊網</span></label>
+                    <label><input type="checkbox" name="waste"><span>垃圾袋與盥洗用品</span></label>
+                    <label><input type="checkbox" name="rain"><span>雨衣、備用乾襪與收濕衣的袋子</span></label>
+                    <label><input type="checkbox" name="offline"><span>離線地圖、停宿地址與場地電話</span></label>
+                    <label><input type="checkbox" name="first-aid"><span>個人藥物與簡易急救包</span></label>
+                    <p id="packing-done" hidden>八項裝備都備妥了。</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <svg class="footer-ridges" viewBox="0 0 1200 320" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+            <path d="M0 232 129 176l72 13 125-76 92 41 109-69 128 61 126-81 131 61 144-84 144 48v230H0Z" fill="#aaa2bd" opacity=".13"/>
+            <path d="M0 276 135 208l117 25 102-59 122 24 109-45 106 24 140-62 107 40 127-51 135 47v169H0Z" fill="#6daca3" opacity=".16"/>
+            <path d="M0 289c140-14 175-55 281-46s186 32 283-4 170-20 237-45 163-28 236-34 118-37 163-51" fill="none" stroke="#f4c59c" stroke-width="1.5" stroke-dasharray="4 7" opacity=".45"/>
+        </svg>
+        <div class="wrap">
+            <div class="footer-grid">
+                <div>
+                    <p class="eyebrow footer-kicker">台18線・山夜手記</p>
+                    <h2 id="footer-references-title">參考連結</h2>
+                    <p class="footer-description">上山前查台18線路況和阿里山園區公告，過夜前再翻一遍消防署的防範資料。</p>
+                </div>
+                <nav class="footer-links" aria-labelledby="footer-references-title">
+                    <a href="https://168.thb.gov.tw/travelTime">
+                        <span><strong>台18線路況</strong><span class="footer-link-note">交通部公路局・省道即時資訊</span></span>
+                        <span class="footer-arrow" aria-hidden="true">↗</span>
+                    </a>
+                    <a href="https://recreation.forest.gov.tw/forest/ra?typ_id=0500001">
+                        <span><strong>阿里山園區公告與天氣</strong><span class="footer-link-note">林業及自然保育署・台灣山林悠遊網</span></span>
+                        <span class="footer-arrow" aria-hidden="true">↗</span>
+                    </a>
+                    <a href="https://www.nfa.gov.tw/cht/index.php?code=list&amp;ids=593">
+                        <span><strong>防範一氧化碳中毒</strong><span class="footer-link-note">內政部消防署・宣導資料</span></span>
+                        <span class="footer-arrow" aria-hidden="true">↗</span>
+                    </a>
+                </nav>
+            </div>
+            <div class="footer-meta">
+                <span>阿里山車泊手記</span>
+                <div class="footer-shortcuts">
+                    <a href="#packing-checklist">裝備清單 <span id="footer-packing-progress"></span></a>
+                    <a href="#top">回到山口 <span aria-hidden="true">↑</span></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
